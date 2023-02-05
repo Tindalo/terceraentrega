@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./syle.css" rel="stylesheet" type="text/css">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <h1>La Biblioteca de Gondor</h1>
+    <div id="boton">
+        <h4>CONSULTAR BIBLIOTECA</h4>
+    </div>
+    <div class="instructions"> 
+        <h3>Instrucciones para el correcto uso de la biblioteca</h3>
+        <p>Si desea cargar un nuevo libro, incorpore los datos requeridos en la sección de abajo y haga clic en enviar. Para ver 
+            de manera completa toda la información cargada, deberá luego hacer clic en el botón verde "Consultar Biblioteca". Allí también se 
+            podrán consultar libros preexistentes, cuyo listado se desplegará al final de ésta página.
+        </p>
+    </div>
+    <br>
+        <h3 id="titleForm">
+            Casillas de información
+        </h3>
+  
+    <form class="formulario">
+        <input type="text" id="autor" placeholder="Autor">
+        <input id="obra" placeholder="Obra">
+        <input type="text" id="edicion" placeholder="Edicion">
+        <input type="text" id="idioma" placeholder="Idioma">
+        <button type="button" id="enviar">Enviar</button>
+    </form>
+
+
+    <div id="mostrar">
+
+    </div>
+    <div class="img">
+        <img src="./white-tree.png" alt="gondor tree" height="150px">
+    </div>    
+<script src="./main.js"></script> 
+
+</body>
+</html>
